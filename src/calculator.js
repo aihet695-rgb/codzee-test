@@ -3,7 +3,7 @@ function divide(a, b) {
 }
 
 function getUserRole(user) {
-  return user.role;
+  return user.role.toUpperCase();
 }
 
 module.exports = { divide, getUserRole };
